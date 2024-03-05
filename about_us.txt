@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>About Us</title>
+</head>
+<body>
+    <div class = "aboutusbg">
+<img src = "C:\Users\Arabelle\Desktop\Programming HTML\2nd sem\image-1.jpg">
+<p> <b>AG </b>
+					 is a renowned Filipino luxury goods conglomerate known for its exquisite
+					 jewelry, watches, and accessories. Founded in 1847 by Louis-François, the 
+					 brand has since become synonymous with elegance, craftsmanship, and prestige.<br><br>
+					 Celebrated for its exceptional jewelry creations, characterized by 
+					 timeless designs, impeccable craftsmanship, and the use of high-quality gemstones 
+					 and precious metals. The brand's iconic pieces, such as the Love Bracelet, 
+					 Trinity Ring, and Panthère de collection, have become synonymous with luxury 
+					 and sophistication.<br> <br>
+					 With boutiques located in major cities worldwide, we enjoy a global presence and 
+					 remains one of the most prestigious luxury brands in the industry. Its products are 
+					 sought after by collectors and enthusiasts alike, representing the epitome of luxury 
+					 and refinement. 					 				 
+					 <hr>
+</p>	
+</div>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="home.css">
+<title>Product</title> 
+<body>
+
+<p class = "collection"> TRINITY COLLECTION </P>
+<p class = "collection-description"> 
+Trinity is the perfect equation: clean lines, the right proportions, precise shapes. 
+To celebrate 100 years of Trinity, Carter has come up with two new, designs: simple 
+and pure, yet daring, along with a re-edition of the XL bracelet, a cult creation, 
+and an XL version of the iconic ring. </p>
+
+<!--AUDIO-->
+<div class="audio">
+    <audio controls>
+        <source src="C:\Users\Arabelle\Desktop\Programming HTML\2nd sem\the-best-jazz-club-in-new-orleans-164472.mp3" type="audio/mpeg">
+    </audio>
+</div>
+<p class="playaudio">ENJOY THE MUSIC WHILE YOU SHOP!</p>
+
+<section class = "sec">
+	<div class = "products"> 
+	
+	<!--Startlabel-->
+	<table>
+	<tr><td>&nbsp</td> </tr> 
+	<tr><td colspan="3" style="font-weight: bold; font-size: 20px; text-align: center; font-family: Garamond;">RINGS</td> </tr> </td>
+    <!--Start-->
+	<tr>
+        <td>
+            <div class="card1">
+                <div class="n1"><img src="r1.jpg" alt></div>
+                <div class="desc1">18K white gold (750/1000),</div>
+                <div class="name1">TRINITY RING, EXTRA-LARGE MODEL</div>
+                <div class="box1">
+                    <div class="price1">$6,100.00</div>
+                    <div class="quantity1">
+                        <input type="number" class="quantity-input" value="1" min="1">
+                    </div>
+                    <button class="btn1">ADD TO CART</button>
+                </div>
+            </div>
+        </td>
+	<!--End-->
+    <!--Start-->
+		<td>
+			<div class="card1">
+                <div class="n1"><img src="r2.jpg" alt></div>
+                <div class="desc1">18K rose gold (750/1000)</div>
+                <div class="name1">TRINITY RING, LARGE MODEL</div>
+                <div class="box1">
+                    <div class="price1">$3,850.00</div>
+                    <div class="quantity1">
+                        <input type="number" class="quantity-input" value="1" min="1">
+                    </div>
+                    <button class="btn1">ADD TO CART</button>
+                </div>
+            </div>
+		</td>
+
+	<!--End-->
+	<!--Start-->
+		<td>
+			<div class="card1">
+                <div class="n1"><img src="r3.jpg" alt></div>
+                <div class="desc1">18K yellow gold</div>
+                <div class="name1">TRINITY RING, MEDIUM MODEL</div>
+                <div class="box1">
+                    <div class="price1">$2,170.00</div>
+                    <div class="quantity1">
+                        <input type="number" class="quantity-input" value="1" min="1">
+                    </div>
+                    <button class="btn1">ADD TO CART</button>
+                </div>
+            </div>
+		</td>
+    </tr>
+	<!--End-->
+	<!--Start-->
+	<tr> 
+		<tr><td>&nbsp</td> </tr> 
+		<tr><td colspan="3" style="font-weight: bold; font-size: 20px; text-align: center; font-family: Garamond;">NECKLACE</td> </tr> 
+        <td>
+            <div class="card1">
+                <div class="n1"><img src="n1.jpg" alt></div>
+                <div class="desc1">d'Amour necklace, 18K white gold </div>
+                <div class="name1">TRINITY NECKLACE</div>
+                <div class="box1">
+                    <div class="price1">$3,450.00</div>
+                    <div class="quantity1">
+                        <input type="number" class="quantity-input" value="1" min="1">
+                    </div>
+                    <button class="btn1">ADD TO CART</button>
+                </div>
+            </div>
+        </td>
+		<!--Start-->
+		<td>
+			<div class="card1">
+                <div class="n1"><img src="n2.jpg" alt></div>
+                <div class="desc1">brilliant-cut diamond totaling 0.04</div>
+                <div class="name1">TRINITY NECKLACE</div>
+                <div class="box1">
+                    <div class="price1">$5,250.00</div>
+                    <div class="quantity1">
+                        <input type="number" class="quantity-input" value="1" min="1">
+                    </div>
+                    <button class="btn1">ADD TO CART</button>
+                </div>
+            </div>
+		</td>
+		<!--end-->
+		<!--start-->
+		<td>
+			<div class="card1">
+                <div class="n1"><img src="n3.jpg" alt></div>
+                <div class="desc1">brilliant-cut diamond totaling 0.09 carat.</div>
+                <div class="name1">LOVE NECKLACE</div>
+                <div class="box1">
+                    <div class="price1">$5,900.00</div>
+                    <div class="quantity1">
+                        <input type="number" class="quantity-input" value="1" min="1">
+                    </div>
+                    <button class="btn1">ADD TO CART</button>
+                </div>
+            </div>
+		</td>
+    </tr>   
+	<!--end-->
+	<!--Start-->
+	<tr> 
+		<tr><td>&nbsp</td> </tr> 
+		<tr><td colspan="3" style="font-weight: bold; font-size: 20px; text-align: center; font-family: Garamond;">EARRINGS</td> </tr> 
+        <td>
+            <div class="card1">
+                <div class="n1"><img src="e1.jpg" alt></div>
+                <div class="desc1">d'Amour earrings, 18K yellow gold</div>
+                <div class="name1">TRINITY EARRINGS</div>
+                <div class="box1">
+                    <div class="price1">$2,940.00</div>
+                    <div class="quantity1">
+                        <input type="number" class="quantity-input" value="1" min="1">
+                    </div>
+                    <button class="btn1">ADD TO CART</button>
+                </div>
+            </div>
+        </td>
+		<td>
+			<div class="card1">
+                <div class="n1"><img src="e2.jpg" alt></div>
+                <div class="desc1">18K rose gold, each set with a brilliant-cut diamond</div>
+                <div class="name1">LOVE SINGLE EARRINGS</div>
+                <div class="box1">
+                    <div class="price1">$590.00</div>
+                    <div class="quantity1">
+                        <input type="number" class="quantity-input" value="1" min="1">
+                    </div>
+                    <button class="btn1">ADD TO CART</button>
+                </div>
+            </div>
+		</td>
+		<td>
+			<div class="card1">
+                <div class="n1"><img src="e3.jpg" alt></div>
+                <div class="desc1">white gold 750/1000 </div>
+                <div class="name1">TRINITY EARRINGS</div>
+                <div class="box1">
+                    <div class="price1">$2,390.00</div>
+                    <div class="quantity1">
+                        <input type="number" class="quantity-input" value="1" min="1">
+                    </div>
+                    <button class="btn1">ADD TO CART</button>
+                </div>
+            </div>
+		</td>
+    </tr>   
+	<!--End-->
+    <!--End-->
+
+</table>
+
+	<!--End-->
+	
+	
+</body>
+</html>

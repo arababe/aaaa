@@ -1,0 +1,499 @@
+<style>
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.links {
+	justify-content: space-between;
+	display: flex;
+	border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+.links li {
+    text-align: center;
+    display: inline-block;
+	font-size: 15px;
+	margin: 0px 20px;
+	font: Baskerville;
+}
+
+.l{
+	text-align: center;
+}
+.l img {
+	width: 150px; 
+    height: auto; 
+	margin-bottom: -50px;
+	margin-top: -50px;
+}
+
+.welcome {
+    margin-bottom: 20px;
+    width: 1097px;
+    height: 380px;
+    padding: 50px 50px;
+    background-image: url('c2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video-container {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%; /* Aspect ratio (16:9) */
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.video-container iframe {
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+        }
+}
+
+.audio-container {
+    text-align: center;
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+}
+
+.play {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-color: brown;
+    background-color: #F5F5DC;
+    text-align: center;
+}
+
+.lsataas{
+	text-align: center;
+    font-size: 15px;
+    font-family: Baskerville;
+    color: white;
+	background-color: black;
+	padding: 10px 10px;
+	margin-bottom: -5px;
+}
+
+.p1 {
+	text-align: center;
+    font-size: 30px;
+    font-family: Baskerville;
+    margin-top: 150px;
+	
+.p2 {
+    font-size: 20px;
+}
+
+}
+
+.a{
+	text-align: center;
+    font-size: 20px;
+    font-family: Garamond;
+    color: black;
+    margin-top:-100px;
+}
+
+.a hr {
+	width: 250px;
+	border-top: 3px solid #333; 
+}
+
+.bg {
+    margin-bottom: 20px;
+    width: auto;
+    height: 640px;
+    padding: 50px 50px;
+    background-image: url('bg2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+	border-radius: 20px;
+}
+
+.bg img {
+    width: 300px; 
+    height: auto; 
+    margin-left: 600px;
+	margin-top: 100px;
+}
+
+.bg h1 {
+    font-family: Garamond;
+    color: white;
+	font-size: 20px;
+	margin-left: 510px;
+	margin-top: 0px;
+}
+
+.search {
+	margin-left: 425px;
+    display: inline-block;
+    position: relative;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.search input[type="text"] {
+    width: 700px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.search button[type="submit"] {
+    background-color: black;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 22px 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .9s ease;
+}
+
+.search button[type="submit"]:hover {
+    transform: scale(1.1);
+    background-color: #DC143C;
+}
+
+.branches {
+  width: 100%; 
+  text-align: center; 
+}
+
+.branches td {
+  padding: 10px; 
+  border: 1px solid black;
+  width: 33.33%;
+  font-family: Baskerville;
+  font-size: 20px;
+}
+
+.branches a {
+  text-decoration: none;
+  color: #DC143C;
+}
+
+.h1{
+  font-family: Baskerville;
+  font-size: 20px;
+}
+
+.des1 {
+  font-family: Baskerville;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+.des1 img,
+.des1 p {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.des1 img {
+  width: 500px; 
+  height: auto; 
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 50px;; 
+}
+
+.des1 p {
+  width: 800px; /* Adjusted width */
+  text-align: justify;
+  padding-top: 100px;
+}
+
+.des1 hr{
+  width: 800px;
+  border-top: 3px solid #333; 
+  margin-left: 655px;
+}
+
+.collection {
+	font-family: Garamond;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 10px;
+}
+
+.collection-description{
+	font-family: Garamond;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: justify;
+	margin: 20px 150px;
+}
+
+.sec {
+    padding: 10px 5%;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted grid-template-columns */
+    gap: 10px; /* Reduced gap between grid items */
+}
+
+.card1 {
+    background: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px; 
+    width: 300px; 
+}
+
+.card1 img {
+    height: 250px;
+    width: 100%;
+}
+
+.desc1 {
+    padding: 10px 20px; /* Adjusted padding */
+    opacity: 0.8;
+}
+
+.name1 {
+    font-weight: 900;
+    font-size: 20px;
+    color: black; /* Corrected color name */
+    padding: 0 20px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.price1 {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn1 {
+    font-size: 13px;
+    color: black;
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    background-color: #DC143C;
+    color: white;
+}
+
+.quantity1 {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-input {
+    width: 50px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.playaudio {
+	font-size: 18px; 
+    font-weight: bold; 
+    color: black; 
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.bl1 {
+    display: flex; 
+    justify-content: space-between; 
+	margin: 0;
+    padding: 50px;
+    height: 100%;
+	background-color: black;
+  }
+.map,
+.allinfo {
+	font-family: Baskerville;
+	font-size: 20px;
+    width: calc(50% - 10px); 
+    margin-right: 20px; 
+	color: white;
+}
+
+.formline{
+	width: 250px;
+	border-top: 3px solid #333; 
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 350px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.contactform .title {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contactform input,
+.contactform textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contactform textarea {
+  height: 100px;
+}
+
+.contactform button {
+  align-self: flex-end;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.aboutusbg {
+  font-family: Baskerville;
+  font-size: 20px;
+}
+
+.aboutusbg img,
+.aboutusbg p {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.aboutusbg img {
+  width: 250px; 
+  height: auto; 
+  margin-left: 100px;
+  margin-right: 50px;; 
+}
+
+.aboutusbg p {
+  width: 750px; /* Adjusted width */
+  text-align: justify;
+}	
+
+.input-group {
+  display: flex;
+  margin-top:20px;
+  margin-left: 450px;
+  align-items: center;
+}
+
+.input {
+  min-height: 50px;
+  max-width: 150px;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 6px 0 0 6px;
+  background-color: transparent;
+}
+
+.button--submit {
+  min-height: 50px;
+  padding: .5em 1em;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color: black;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.button--submit:hover {
+  background-color: #DC143C;
+}
+
+.input:focus, .input:focus-visible {
+  border-color: #3898EC;
+  outline: none;
+}
+
+.socmed {
+  list-style: none;
+  padding: 0;
+  margin-left: 550px;
+  display: flex;
+}
+
+.socmed .icon {
+  margin-right: 10px;
+}
+
+.socmed .icon a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: Black;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.socmed .icon a:hover {
+  background-color: #DC143C; 
+}
+
+.socmed .icon.instagram a:hover {
+  background-color: #DC143C; 
+}
+
+.socmed .icon i {
+  font-size: 20px;
+}
+
+</style>

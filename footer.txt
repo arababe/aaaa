@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="home.css">
+<title>Footer</title>
+</head>
+<body>
+<nav class="links">
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">PRODUCTS</a></li>
+        <li><a href="#">CONTACT US</a></li>
+        <li><a href="#">ABOUT US</a></li>
+    </ul>
+</nav>
+<div class="input-group">
+    <input type="email" class="input" id="Email" name="Email" placeholder="Enter your email" autocomplete="off">
+    <input class="button--submit" value="Subscribe" type="submit">
+</div>
+
+<ul class="socmed">
+    <li class="icon facebook">
+        <a href="https://www.facebook.com/profile.php?id=100004992468957&mibextid=LQQJ4d" target="_blank">
+            <span class="tooltip">FB</span>
+            <i class="fab fa-facebook-f"></i>
+        </a>
+    </li>
+    <li class="icon instagram">
+        <a href="https://www.instagram.com/itsarababy_?igsh=eXg1dTBqbHlvdDgx&utm_source=qr" target="_blank">
+            <span class="tooltip">IG</span>
+            <i class="fab fa-instagram"></i>
+        </a>
+    </li>
+</ul>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="home.css">
+<title>Index</title> 
+
+</head>
+
+<body> 
+<meta charset="UTF-8">
+<!--LOGO-->
+<div class = "l">
+<img src= "C:\Users\Arabelle\Desktop\Programming HTML\2nd sem\logo2.png">
+</div><br>
+<!--MENU SA TAAS-->
+<nav class="links">
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">PRODUCTS</a></li>
+        <li><a href="#">CONTACT US</a></li>
+        <li><a href="#">ABOUT US</a></li>
+    </ul>
+</nav>
+
+<!--BLACK NA LABEL-->
+<p class = "lsataas"> To celebrate 100 years of Trinity, the Maison has imagined simple and pure, yet daring new designs </p>
+
+<!--PIC-->
+<section class="welcome">
+</section>
+
+<!--LINE AFTER FIRST PIC-->
+<br> 
+<section class = "a">
+    <p class="p1">THIS IS WHERE DREAMS COME TRUE...</p>
+	<hr class = "aline"> <br>
+	<p class="p2"> Step into our enchanting world, where elegance meets sophistication, and beauty knows no bounds. </p>
+</section>
+
+<!--VIDEO-->
+<div class="video-container">
+    <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/l7Y040dpoYQ?si=oEdC3JJbwpWTmE-i&autoplay=1&mute=1"
+    frameborder="0"
+    allowfullscreen
+    ></iframe>
+</div>
+
+
+
+</body>
+</html>

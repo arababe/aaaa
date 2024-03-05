@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="home.css">
+<title>Contact Us</title>
+
+<body>
+<div class = "bl1">
+<section class = "map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.203485201538!2d120.98303530902318!3d14.587477885838492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca20f5c0aea9%3A0x52dea1e12d0145a0!2sAdamson%20University%20-%20(AdU)!5e0!3m2!1sen!2sph!4v1709543822888!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+</section>
+
+<section class = "allinfo"> 
+<dl> CONTACT INFORMATION <br><br>
+  <dt><b>Address</dt></b>
+  <dd>900 San Marcelino St, Ermita, Manila, 1000 Metro Manila</dd><br><br>
+  <dt><b>Telephone Number</dt></b>
+  <dd>096699xxxxx</dd><br><br>
+  <dt><b>Email</dt></b>
+  <dd>arabelle.eunice.garcia@adamson.edu.ph</dd>
+</dl>
+</section>
+</div>
+</div>
+<br> <br> <br> 
+<hr class = "formline">
+<form class="contactform"><br> <br> <br> 
+
+    <div class="title">Contact us</div>
+    <input type="text" placeholder="Your email" class="input">
+    <textarea placeholder="Your message"></textarea>
+     
+    <button>Submit</button>
+	
+</form>
+
+</body>

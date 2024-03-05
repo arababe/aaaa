@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="home.css">
+<title>Home</title>
+</head>
+
+<body>
+
+<nav class="links">
+    <ul>
+        <li><a href="file:///C:/Users/Arabelle/Desktop/Programming%20HTML/2nd%20sem/home.html">HOME</a></li>
+        <li><a href="file:///C:/Users/Arabelle/Desktop/Programming%20HTML/2nd%20sem/products.html">PRODUCTS</a></li>
+        <li><a href="file:///C:/Users/Arabelle/Desktop/Programming%20HTML/2nd%20sem/Contact_Us.html">CONTACT US</a></li>
+        <li><a href="file:///C:/Users/Arabelle/Desktop/Programming%20HTML/2nd%20sem/about_us.html">ABOUT US</a></li>
+    </ul>
+</nav>
+
+<div class="search">
+	<input placeholder="Search..." type="text">
+		<button type="submit">Go</button>
+</div>
+
+<div class="bg">
+<br> <br> <br>
+<br> <br>
+	<img src = "C:\Users\Arabelle\Desktop\Programming HTML\2nd sem\logo3.png">
+	<h1> &nbsp &nbsp &nbsp &nbsp &nbsp "The Jeweler of Kings, the King of Jewelers" </h1>
+</div>
+<br> <br> <br> <br> <br>
+
+<div class = "des1">
+<img src = "C:\Users\Arabelle\Desktop\Programming HTML\2nd sem\des1pic.jpg">
+<p> <b>Carter </b>
+					 is a renowned French luxury goods conglomerate known for its exquisite
+					 jewelry, watches, and accessories. Founded in 2024 by Belle Daep, the 
+					 brand has since become synonymous with elegance, craftsmanship, and prestige.<br><br>
+					 Celebrated for its exceptional jewelry creations, characterized by 
+					 timeless designs, impeccable craftsmanship, and the use of high-quality gemstones 
+					 and precious metals. The brand's iconic pieces, such as the Carter Love Bracelet, 
+					 Trinity Ring, and Panthère de Carter collection, have become synonymous with luxury 
+					 and sophistication.<br> <br>
+					 With boutiques located in major cities worldwide, Carter enjoys a global presence and 
+					 remains one of the most prestigious luxury brands in the industry. Its products are 
+					 sought after by collectors and enthusiasts alike, representing the epitome of luxury 
+					 and refinement. <br> <br>
+					 Discover our modern designs, where sleek lines and contemporary aesthetics meet to 
+					 create statement pieces that effortlessly elevate any ensemble. Or, immerse yourself 
+					 in the timeless allure of vintage-inspired jewelry, where intricate details and romantic 
+					 motifs evoke an aura of nostalgia and charm. <br> <br>
+					 Whether you're searching for the perfect accessory to complete your everyday look or 
+					 seeking a dazzling statement piece for a special occasion, our jewelry collection is 
+					 designed to inspire and delight. With impeccable quality and unparalleled craftsmanship, 
+					 each piece is a testament to our dedication to providing you with nothing less than the extraordinary.<br> <br> <br>
+					 <b>Visit us today and let our stunning array of jewelry ignite your imagination and adorn 
+					 you with the essence of elegance and sophistication.</b>
+					 <hr>
+					 
+</p>	
+</div>
+<br> <br> <br>
+<h1><center>OUR BRANCHES</h1> </center>
+
+<nav>
+<table class="branches">
+  <tr>
+    <td style="background-color: black; color: white;">Makati</td>
+    <td style="background-color: black; color: white;">Paranaque</td>
+    <td style="background-color: black; color: white;">Mandaluyong</td>
+  </tr>
+  <tr>
+    <td>
+        BOUTIQUE CARTER GROUND FLOOR, <br> GREENBELT 3 
+        <ul>
+            <li>In-store shopping</li>
+            <li>OPENS 7AM - 5PM</li>
+        </ul>
+    </td>
+    <td>
+        NO SPECIFIC DIRECTIONS AVAILABLE 
+        <ul>
+            <li>In-store shopping</li>
+            <li>OPENS 7AM - 5PM</li>
+        </ul>
+    </td>
+    <td>
+        CARTER SHANGRILA <br> GREENBELT 3 
+        <ul>
+            <li>In-store shopping</li>
+            <li>OPENS 7AM - 5PM</li>
+        </ul>
+    </td>
+</tr>
+
+<tr>
+	<td colspan="3"><a href="https://www.facebook.com/yourfacebookaccount" class="facebook-link" target="_blank">Click here to visit our Facebook Page</a>
+
+
+</table>
+</nav>
+
+<br><br> <br> <br> <br> <br>
+
+
+
+
+
+
+</body>
+</html>
